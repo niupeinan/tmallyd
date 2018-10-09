@@ -84,12 +84,12 @@ body{
 .header .content .title .dl a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 0.14rem;
     align-self: flex-end;
 }
 .header .content .title .dl a span{
     white-space: pre-wrap;
-    border: 0px solid black;
+    border: 0 solid black;
     position: relative;
     box-sizing: border-box;
     display: block;
@@ -97,7 +97,7 @@ body{
     flex-direction: column;
     align-content: flex-start;
     flex-shrink: 0;
-    font-size: 14px;
+    font-size: 0.14rem;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -105,7 +105,7 @@ body{
     text-decoration: none;
     box-sizing: border-box;
     align-self: center;
-    padding: 0 11.04px 11.04px;
+    padding: 0 0.11rem 0.11rem;
     display: flex;
     -webkit-box-orient: horizontal;
     flex-direction: row;
@@ -124,15 +124,15 @@ body{
     align-content: flex-start;
     /*flex: 1 1 0;*/
     background-color: rgb(255, 255, 255);
-    border-radius: 4.416px;
+    border-radius: 0.2rem;
     -webkit-box-flex: 1;
 }
 .searchbox div img{
     display: flex;
-    width: 16.56px;
-    height: 17.664px;
+    width: 0.2rem;
+    height: 0.2rem;
     position: relative;
-    margin: 11.04px 11.04px 0px;
+    margin: 0.35rem 0.11rem 0;
 }
 .searchbox div span{
     white-space: pre-wrap;
@@ -144,10 +144,10 @@ body{
     flex-direction: column;
     align-content: flex-start;
     flex-shrink: 0;
-    font-size: 15.456px;
+    font-size: 0.16rem;
     background-color: transparent;
     align-self: center;
-    line-height: 41.952px;
+    line-height:0.416rem;
     color: rgba(0, 0, 0, 0.3);
 }
 .top-banner{

@@ -79,6 +79,8 @@ $(function () {
     $(window).scroll(function(){
         $('.header').css({"height":"1.2rem"});
         $(".logo").css("display","none");
-        $(".searchbox").css({"width":"5.5rem","height":"0.1rem","margin":"0 auto","top":"-0.8rem","background":"white"})
+        $(".searchbox").css({"width":"5.5rem","height":"0.1rem","margin":"0 auto","top":"-0.8rem","background":"white","borderRadius":"0.2rem"})
+        $(".left").css("marginTop","0.2rem")
+        $(".dl").css("marginTop","0.2rem")
     })
 });
